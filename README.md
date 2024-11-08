@@ -56,8 +56,8 @@ This repository provides a structured Exploratory Data Analysis (EDA) of Spotify
 
 :sparkles: feature_3
 
-## Contact
-Made by [Karizza Dea R. Zoleta](https://github.com/kzoleta). If you have any queries or comments, feel free to reach out! :heart:
+## Author
+Made by: [Karizza Dea R. Zoleta](https://github.com/kzoleta). If you have any queries or comments, feel free to reach out! :heart:
 
 
 #### ❗NOTE: Make sure to tap [here](https://github.com/kzoleta/EDA2023/commits/main/README.md) to see the process of making this repository.

@@ -5,8 +5,19 @@
 This repository provides a structured Exploratory Data Analysis (EDA) of Spotify's "Most Streamed Songs of 2023," based on the Kaggle dataset available [here](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023) . This EDA provides a comprehensive look into Spotify’s trending songs for 2023, with insights that may offer valuable context for future music popularity analyses.
 
 ## Files
-1. [filename].ipynb: This file contains the code for the Exploratory Data Analysis of Spotify's "Most Streamed Songs of 2023".
-2. README.md: This file caters the overview of the repository
+
+| File Name                 | Description                                                                                               |              
+| :---:                     | :---:                                                                                                     |                
+|🌸 EDA_Spotify2023.ipnyb   | This file contains the code for the Exploratory Data Analysis of Spotify's "Most Streamed Songs of 2023". |                                        
+| 🌸 README.md             | This file caters the overview of the repository                                                          |
+
+
+## Code
+
+
+
+## Gallery
+
 
 ## Addressed Guide Questions:
 

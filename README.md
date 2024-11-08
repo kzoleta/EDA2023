@@ -4,7 +4,7 @@
 
 This repository provides a structured Exploratory Data Analysis (EDA) of Spotify's "Most Streamed Songs of 2023," based on the Kaggle dataset available [here](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023) . This EDA provides a comprehensive look into Spotify’s trending songs for 2023, with insights that may offer valuable context for future music popularity analyses.
 
-## Files
+## 🍄Files
 
 | File Name                                                                                      | Description                                                                                               |              
 | :---:                                                                                          | :---:                                                                             
@@ -12,7 +12,7 @@ This repository provides a structured Exploratory Data Analysis (EDA) of Spotify
 | 🌸 [README.md](https://github.com/kzoleta/EDA2023/blob/main/README.md)                         | This file caters the overview of the repository                                                          |
 
 
-## Code
+## 🍄Code
 ```python
 import numpy as np
 import pandas as pd
@@ -196,9 +196,9 @@ plt.ylabel('Total Appearances')
 plt.show()
 ```
 
-## Addressed Guide Questions:
+## 🍄Addressed Guide Questions:
 
-### Overview of Dataset
+### 🦢Overview of Dataset
 1. The dataset has 953 rows and 24 columns
 ___
 2.
@@ -210,7 +210,7 @@ The missing values:
 
 ___
 
-### Basic Descriptive Statistics
+### 🦢Basic Descriptive Statistics
 3.
 ![image](https://github.com/user-attachments/assets/6d36ae3e-05a5-4fbd-a558-d7b0110f4db3)
 ___
@@ -224,7 +224,7 @@ ___
 
 ___
 
-### Top Performers
+### 🦢Top Performers
 5.
 ![image](https://github.com/user-attachments/assets/9e2c4976-ff93-47f6-9251-55ce4269266a)
 ___
@@ -234,7 +234,7 @@ ___
 
 ___
 
-### Temporal Trends
+### 🦢Temporal Trends
 7.
 ![image](https://github.com/user-attachments/assets/8cac03c1-df0e-46da-b766-7f71e826e7e3)
 ___
@@ -243,18 +243,18 @@ ___
 
 ___
 
-### Genre and Music Characteristics
+### 🦢Genre and Music Characteristics
 9.
 ![image](https://github.com/user-attachments/assets/d43f54ff-54e6-42de-97c1-9e73f540ff0b)
 ___
 10. ans [TEXT]
 
-### Platform Popularity
+### 🦢Platform Popularity
 11.
 ![image](https://github.com/user-attachments/assets/1d9ad641-00b6-4bad-b97c-541eb90d26f9)
 ___
 
-### Advanced Analysis
+### 🦢Advanced Analysis
 13.
 ![image](https://github.com/user-attachments/assets/4c805e35-432b-47be-8f9d-37133d8e8d25)
 ___
@@ -263,14 +263,14 @@ ___
 ![image](https://github.com/user-attachments/assets/1f6bb8a3-5447-4f17-af89-a11628231ac3)
 ___
 
-## Main Features
+## 🍄Main Features
 :sparkles: feature_1
 
 :sparkles: feature 2
 
 :sparkles: feature_3
 
-## Author
+## 🍄Author
 Made by: [Karizza Dea R. Zoleta](https://github.com/kzoleta). If you have any queries or comments, feel free to reach out! :heart:
 
 

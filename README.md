@@ -8,8 +8,8 @@ This repository provides a structured Exploratory Data Analysis (EDA) of Spotify
 
 | File Name                 | Description                                                                                               |              
 | :---:                     | :---:                                                                                                     |                
-|🌸 EDA_Spotify2023.ipnyb   | This file contains the code for the Exploratory Data Analysis of Spotify's "Most Streamed Songs of 2023". |                                        
-| 🌸 README.md             | This file caters the overview of the repository                                                          |
+|🌸 [EDA_Spotify2023.ipnyb](https://github.com/kzoleta/EDA2023/blob/main/EDA_Spotify2023.ipynb)   | This file contains the code for the Exploratory Data Analysis of Spotify's "Most Streamed Songs of 2023". |                                        
+| 🌸 [README.md](https://github.com/kzoleta/EDA2023/blob/main/README.md)             | This file caters the overview of the repository                                                          |
 
 
 ## Code

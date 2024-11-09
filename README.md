@@ -12,6 +12,14 @@ This repository provides a structured Exploratory Data Analysis (EDA) of Spotify
 | 🌸 [README.md](https://github.com/kzoleta/EDA2023/blob/main/README.md)                         | This file caters the overview of the repository                                                          |
 
 
+## 🍄 Main Features
+:sparkles: Descriptive statistics of popular tracks.
+
+:sparkles: Visualization of trends in track popularity over time.
+
+:sparkles: Correlation analysis between streams and musical attributes.
+
+
 ## 🍄 Code
 ```python
 import numpy as np
@@ -271,37 +279,24 @@ ___
 ![image](https://github.com/user-attachments/assets/1f6bb8a3-5447-4f17-af89-a11628231ac3)
 ___
 
-## 🍄 Key Insights
-### Key Insights from Spotify 2023 EDA
+## 🍄 Key Insights from Spotify 2023 EDA
 
-🍃 Streams Distribution: 
-Most songs have moderate streams; only a few have extremely high counts, showing a concentration of popularity in a few top tracks.
+| **Key Insights**                | **Description**                                                                                                                                                     |
+| :-------:                       | :------:                                                                                                                                                            |
+| 🌸Streams Distribution         | Most songs have moderate streams; only a few have extremely high counts, showing a concentration of popularity in a few top tracks.                                  |
+| 🌸Release Year                 | Newer songs generally receive more streams, suggesting recency as a key factor in popularity.                                                                        |
+| 🌸High Energy Preference       | Top-streamed songs tend to have higher energy, showing a preference for lively tracks on Spotify.                                                                    |
+| 🌸Key and Mode Trends          | Major key tracks are more common and tend to be more popular, while minor key tracks are less frequent, reflecting a listener preference for songs in major keys.    |     
 ___
 
-🍃 Release Year: 
-Newer songs generally receive more streams, suggesting recency as a key factor in popularity.
-___
 
-🍃 High Energy Preference: 
-Top-streamed songs tend to have higher energy, showing a preference for lively tracks on Spotify.
-___
 
-🍃 Key and Mode Trends: 
-Major key tracks are more common and tend to be more popular, while minor key tracks are less frequent, reflecting a listener preference for songs in major keys.
-___
-
-## 🍄 Main Features
-:sparkles: Descriptive statistics of popular tracks.
-
-:sparkles: Visualization of trends in track popularity over time.
-
-:sparkles: Correlation analysis between streams and musical attributes.
 
 ## 🍄 Author
 Made by: [Karizza Dea R. Zoleta](https://github.com/kzoleta). If you have any queries or comments, feel free to reach out! :heart:
+___
 
-
-#### ❗NOTE: Make sure to tap [here](https://github.com/kzoleta/EDA2023/commits/main/README.md) to see the process of making this repository.
+### ✏️NOTE: Make sure to tap [here](https://github.com/kzoleta/EDA2023/commits/main/README.md) to see the process of making this repository.
 
 
 

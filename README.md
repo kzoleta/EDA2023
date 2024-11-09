@@ -4,7 +4,7 @@
 
 This repository provides a structured Exploratory Data Analysis (EDA) of Spotify's "Most Streamed Songs of 2023," based on the Kaggle dataset available [here](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023) . This EDA provides a comprehensive look into Spotify’s trending songs for 2023, with insights that may offer valuable context for future music popularity analyses.
 
-## 🍄Files
+## 🍄 Files
 
 | File Name                                                                                      | Description                                                                                               |              
 | :---:                                                                                          | :---:                                                                             
@@ -12,7 +12,7 @@ This repository provides a structured Exploratory Data Analysis (EDA) of Spotify
 | 🌸 [README.md](https://github.com/kzoleta/EDA2023/blob/main/README.md)                         | This file caters the overview of the repository                                                          |
 
 
-## 🍄Code
+## 🍄 Code
 ```python
 import numpy as np
 import pandas as pd
@@ -196,12 +196,14 @@ plt.ylabel('Total Appearances')
 plt.show()
 ```
 
-## 🍄Addressed Guide Questions:
+## 🍄 Addressed Guide Questions:
 
-### 🦢Overview of Dataset
+### 🦢 Overview of Dataset
 1. The dataset has 953 rows and 24 columns
 ___
 2.
+The columns contain various data types such as integers, floats, and strings. There are missing values in some columns, especially in the `streams` and playlist columns.
+
 ![image](https://github.com/user-attachments/assets/cb8b7d81-3802-4375-8ce5-216ed7f2453b)
 ___
 The missing values:
@@ -210,11 +212,13 @@ The missing values:
 
 ___
 
-### 🦢Basic Descriptive Statistics
+### 🦢 Basic Descriptive Statistics
 3.
 ![image](https://github.com/user-attachments/assets/6d36ae3e-05a5-4fbd-a558-d7b0110f4db3)
 ___
 4.
+The distribution shows a slight concentration around certain years. Most tracks have a low number of artists, with a few having more collaborators.
+
 
 ![image](https://github.com/user-attachments/assets/9e3f2602-3283-403c-88f1-c6c1122df217)
 
@@ -224,8 +228,10 @@ ___
 
 ___
 
-### 🦢Top Performers
+### 🦢 Top Performers
 5.
+The track with the highest streams is "Blinding Lights" by The Weeknd
+
 ![image](https://github.com/user-attachments/assets/9e2c4976-ff93-47f6-9251-55ce4269266a)
 ___
 6.
@@ -234,43 +240,76 @@ ___
 
 ___
 
-### 🦢Temporal Trends
+### 🦢 Temporal Trends
 7.
 ![image](https://github.com/user-attachments/assets/8cac03c1-df0e-46da-b766-7f71e826e7e3)
 ___
 8.
+The month with the most releases is January with 133 songs.
+
 ![image](https://github.com/user-attachments/assets/0303bc28-54a6-4a55-add2-676b56d60274)
 
 ___
 
-### 🦢Genre and Music Characteristics
+### 🦢 Genre and Music Characteristics
 9.
+The correlation analysis shows that streams have little to no relationship with musical attributes, as all correlation values are far from one. The correlation between anceability and energy suggests that energetic songs are likely to be more danceable.
+    
 ![image](https://github.com/user-attachments/assets/d43f54ff-54e6-42de-97c1-9e73f540ff0b)
 ___
-10. ans [TEXT]
+10. Danceability and energy have a modest positive correlation. Meanwhile, valence and acousticness have a weak negative correlation, indicating an inverse but negligible relationship between a track's mood and its acoustic qualities.
 
-### 🦢Platform Popularity
+### 🦢 Platform Popularity
 11.
+Spotify playlists have the highest number of tracks, followed by Deezer playlists, and Apple playlists. Spotify seems to favor the most popular tracks.
+
 ![image](https://github.com/user-attachments/assets/1d9ad641-00b6-4bad-b97c-541eb90d26f9)
 ___
 
-### 🦢Advanced Analysis
-13.
+### 🦢 Advanced Analysis
+12.
+Tracks in major keys tend to have higher average streams compared to minor keys.
+
 ![image](https://github.com/user-attachments/assets/4c805e35-432b-47be-8f9d-37133d8e8d25)
 ___
 
-14.
+13.
+Artists like The Weeknd, Taylor Swift, Ed Sheeran, Harry Styles, and Eminem appear frequently across platforms, suggesting they have high visibility on multiple playlists and charts.
+
 ![image](https://github.com/user-attachments/assets/1f6bb8a3-5447-4f17-af89-a11628231ac3)
 ___
 
-## 🍄Main Features
-:sparkles: feature_1
+## 🍄 Key Insights
+### Key Insights from Spotify 2023 EDA
 
-:sparkles: feature 2
+🍃 Streams Distribution: 
+Most songs have moderate streams; only a few have extremely high counts, showing a concentration of popularity in a few top tracks.
+___
 
-:sparkles: feature_3
+🍃 Release Year: 
+Newer songs generally receive more streams, suggesting recency as a key factor in popularity.
+___
 
-## 🍄Author
+🍃 Correlation (Danceability, Energy, Streams): 
+Weak to moderate correlation exists between streams and both danceability and energy, indicating they somewhat impact popularity but aren’t primary factors.
+___
+
+🍃 High Energy Preference: 
+Top-streamed songs tend to have higher energy, showing a preference for lively tracks on Spotify.
+___
+
+🍃 Data Quality: 
+Initial data cleanup was necessary, underscoring the importance of quality data for accurate insights.
+___
+
+## 🍄 Main Features
+:sparkles: Descriptive statistics of popular tracks.
+
+:sparkles: Visualization of trends in track popularity over time.
+
+:sparkles: Correlation analysis between streams and musical attributes.
+
+## 🍄 Author
 Made by: [Karizza Dea R. Zoleta](https://github.com/kzoleta). If you have any queries or comments, feel free to reach out! :heart:
 
 

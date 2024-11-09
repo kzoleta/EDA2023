@@ -201,8 +201,7 @@ plt.show()
 ### 🦢 Overview of Dataset
 1. The dataset has 953 rows and 24 columns
 ___
-2.
-The columns contain various data types such as integers, floats, and strings. There are missing values in some columns, especially in the `streams` and playlist columns.
+2. The columns contain various data types such as integers, floats, and strings. There are missing values in some columns, especially in the `streams` and playlist columns.
 
 ![image](https://github.com/user-attachments/assets/cb8b7d81-3802-4375-8ce5-216ed7f2453b)
 ___
@@ -216,8 +215,7 @@ ___
 3.
 ![image](https://github.com/user-attachments/assets/6d36ae3e-05a5-4fbd-a558-d7b0110f4db3)
 ___
-4.
-The distribution shows a slight concentration around certain years. Most tracks have a low number of artists, with a few having more collaborators.
+4. The distribution shows a slight concentration around certain years. Most tracks have a low number of artists, with a few having more collaborators.
 
 
 ![image](https://github.com/user-attachments/assets/9e3f2602-3283-403c-88f1-c6c1122df217)
@@ -229,8 +227,7 @@ ___
 ___
 
 ### 🦢 Top Performers
-5.
-The track with the highest streams is "Blinding Lights" by The Weeknd
+5. The track with the highest streams is "Blinding Lights" by The Weeknd
 
 ![image](https://github.com/user-attachments/assets/9e2c4976-ff93-47f6-9251-55ce4269266a)
 ___
@@ -244,37 +241,32 @@ ___
 7.
 ![image](https://github.com/user-attachments/assets/8cac03c1-df0e-46da-b766-7f71e826e7e3)
 ___
-8.
-The month with the most releases is January with 133 songs.
+8. The month with the most releases is January with 133 songs.
 
 ![image](https://github.com/user-attachments/assets/0303bc28-54a6-4a55-add2-676b56d60274)
 
 ___
 
 ### 🦢 Genre and Music Characteristics
-9.
-The correlation analysis shows that streams have little to no relationship with musical attributes, as all correlation values are far from one. The correlation between anceability and energy suggests that energetic songs are likely to be more danceable.
+9. The correlation analysis shows that streams have little to no relationship with musical attributes, as all correlation values are far from one. The correlation between anceability and energy suggests that energetic songs are likely to be more danceable.
     
 ![image](https://github.com/user-attachments/assets/d43f54ff-54e6-42de-97c1-9e73f540ff0b)
 ___
 10. Danceability and energy have a modest positive correlation. Meanwhile, valence and acousticness have a weak negative correlation, indicating an inverse but negligible relationship between a track's mood and its acoustic qualities.
 
 ### 🦢 Platform Popularity
-11.
-Spotify playlists have the highest number of tracks, followed by Deezer playlists, and Apple playlists. Spotify seems to favor the most popular tracks.
+11. Spotify playlists have the highest number of tracks, followed by Deezer playlists, and Apple playlists. Spotify seems to favor the most popular tracks.
 
 ![image](https://github.com/user-attachments/assets/1d9ad641-00b6-4bad-b97c-541eb90d26f9)
 ___
 
 ### 🦢 Advanced Analysis
-12.
-Tracks in major keys tend to have higher average streams compared to minor keys.
+12. Tracks in major keys tend to have higher average streams compared to minor keys.
 
 ![image](https://github.com/user-attachments/assets/4c805e35-432b-47be-8f9d-37133d8e8d25)
 ___
 
-13.
-Artists like The Weeknd, Taylor Swift, Ed Sheeran, Harry Styles, and Eminem appear frequently across platforms, suggesting they have high visibility on multiple playlists and charts.
+13. Artists like The Weeknd, Taylor Swift, Ed Sheeran, Harry Styles, and Eminem appear frequently across platforms, suggesting they have high visibility on multiple playlists and charts.
 
 ![image](https://github.com/user-attachments/assets/1f6bb8a3-5447-4f17-af89-a11628231ac3)
 ___
@@ -290,16 +282,12 @@ ___
 Newer songs generally receive more streams, suggesting recency as a key factor in popularity.
 ___
 
-🍃 Correlation (Danceability, Energy, Streams): 
-Weak to moderate correlation exists between streams and both danceability and energy, indicating they somewhat impact popularity but aren’t primary factors.
-___
-
 🍃 High Energy Preference: 
 Top-streamed songs tend to have higher energy, showing a preference for lively tracks on Spotify.
 ___
 
-🍃 Data Quality: 
-Initial data cleanup was necessary, underscoring the importance of quality data for accurate insights.
+🍃 Key and Mode Trends: 
+Major key tracks are more common and tend to be more popular, while minor key tracks are less frequent, reflecting a listener preference for songs in major keys.
 ___
 
 ## 🍄 Main Features

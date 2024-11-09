@@ -296,7 +296,7 @@ ___
 Made by: [Karizza Dea R. Zoleta](https://github.com/kzoleta). If you have any queries or comments, feel free to reach out! :heart:
 ___
 
-### ✏️NOTE: Make sure to tap [here](https://github.com/kzoleta/EDA2023/commits/main/README.md) to see the process of making this repository.
+### ✏️NOTE: Make sure to tap [here](https://github.com/kzoleta/EDA2023/commits/main/README.md) and the❗three dots❗to see the short description of the changes made to finalize this repository.
 
 
 
